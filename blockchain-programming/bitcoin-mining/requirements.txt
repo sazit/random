@@ -1,0 +1,18 @@
+# Bitcoin Mining Simulation Dependencies
+# All standard library modules - no external dependencies required!
+
+# The simulation uses only Python standard library:
+# - hashlib (for SHA-256 hashing)
+# - time (for timestamps and performance measurement)  
+# - json (for data serialization)
+# - dataclasses (for structured data)
+# - datetime (for human-readable timestamps)
+
+# Optional: For enhanced development experience
+pytest>=7.0.0        # For running tests
+black>=22.0.0         # Code formatting
+mypy>=1.0.0          # Type checking
+
+# Optional: For visualization (if you want to extend the project)
+matplotlib>=3.5.0     # For plotting mining statistics
+pandas>=1.4.0        # For data analysis

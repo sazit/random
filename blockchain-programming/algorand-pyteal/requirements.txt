@@ -1,0 +1,17 @@
+# Algorand PyTeal Development Dependencies
+
+# Core Algorand SDK
+py-algorand-sdk>=2.4.0
+
+# PyTeal for smart contract development
+pyteal>=0.25.0
+
+# Optional: Enhanced development tools
+pytest>=7.0.0          # Testing framework
+black>=22.0.0           # Code formatting  
+mypy>=1.0.0            # Type checking
+
+# Optional: Jupyter for interactive development
+jupyter>=1.0.0          # Interactive notebooks
+matplotlib>=3.5.0       # For plotting transaction data
+pandas>=1.4.0          # Data analysis

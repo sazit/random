@@ -1,0 +1,46 @@
+{
+  "name": "LearnNFT Genesis",
+  "description": "The first NFT in the LearnNFT collection - a special genesis token for blockchain education. This NFT represents the beginning of your journey into Web3 development.",
+  "image": "https://api.learnnft.dev/images/genesis.png",
+  "external_url": "https://learnnft.dev",
+  "animation_url": "https://api.learnnft.dev/animations/genesis.mp4",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Genesis"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Educational"
+    },
+    {
+      "trait_type": "Level",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Blockchain",
+      "value": "Polygon"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 0,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Mint Date",
+      "value": 1703001600,
+      "display_type": "date"
+    },
+    {
+      "trait_type": "Educational Value",
+      "value": 100,
+      "display_type": "boost_percentage"
+    }
+  ],
+  "properties": {
+    "category": "Educational NFT",
+    "creator": "LearnNFT Team",
+    "edition": "Genesis Edition",
+    "total_supply": 1
+  }
+}

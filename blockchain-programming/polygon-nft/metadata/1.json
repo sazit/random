@@ -1,0 +1,44 @@
+{
+  "name": "LearnNFT #1 - Solidity Wizard",
+  "description": "A magical representation of smart contract development mastery. This NFT embodies the skills and knowledge needed to build secure and efficient smart contracts on the blockchain.",
+  "image": "https://api.learnnft.dev/images/1.png",
+  "external_url": "https://learnnft.dev/token/1",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Developer"
+    },
+    {
+      "trait_type": "Skill",
+      "value": "Solidity"
+    },
+    {
+      "trait_type": "Level",
+      "value": "Intermediate"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Blue Gradient"
+    },
+    {
+      "trait_type": "Experience Points",
+      "value": 1250,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Power Level",
+      "value": 75,
+      "display_type": "boost_percentage"
+    }
+  ],
+  "properties": {
+    "category": "Educational NFT",
+    "creator": "LearnNFT Community",
+    "edition": "Developer Series",
+    "unlock_content": "https://learnnft.dev/courses/solidity-advanced"
+  }
+}

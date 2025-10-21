@@ -1,0 +1,28 @@
+{
+  "name": "solana-counter-program",
+  "version": "1.0.0",
+  "description": "Beginner Solana program with counter functionality",
+  "main": "client.js",
+  "scripts": {
+    "build": "cargo build-bpf --manifest-path=Cargo.toml --bpf-out-dir=dist/program",
+    "deploy": "solana program deploy dist/program/simple_solana_program.so",
+    "test": "cargo test",
+    "client": "ts-node client.ts",
+    "build-client": "tsc client.ts",
+    "setup": "npm install && cargo build-bpf",
+    "start-validator": "solana-test-validator --reset --quiet",
+    "stop-validator": "pkill -f solana-test-validator"
+  },
+  "keywords": ["solana", "blockchain", "rust", "smart-contracts"],
+  "author": "Learning Blockchain Dev",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.87.0",
+    "borsh": "^0.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "typescript": "^5.2.2",
+    "ts-node": "^10.9.1"
+  }
+}
